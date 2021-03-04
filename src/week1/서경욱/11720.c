@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(){
+  int N,sum=0;
+  scanf("%d",&N);
+  char a[100]={0,};
+  scanf("%s",a);
+  for(int i=0;i<N;i++){
+    sum+=a[i]-'0';
+  }
+  printf("%d",sum);
+  return 0;
+}
